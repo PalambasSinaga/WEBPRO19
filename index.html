@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1301170611</title>
+</head>
+<body>
+	<h3>Jurnal Modul 1</h3>
+	<form action="index2.html" method="post">
+	<table>
+		<tr>
+			<td>Nama Lengkap</td>
+			<td>:</td>
+			<td><input type="text" name="nama" placeholder="Nama Anda" readonly required/></td>
+		</tr>
+		<tr>
+			<td>Nama Panggilan</td>
+			<td>:</td>
+			<td><input type="text" name="panggilan" placeholder="Nama Anda" disabled required/></td>
+		</tr>
+		<tr>
+			<td>Username</td>
+			<td>:</td>
+			<td><input type="text" name="username" placeholder="Username" required/></td>
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td>:</td>
+			<td><input type="text" nama="email" placeholder="Email" required/></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td>:</td>
+			<td><input type="text" nama="password" placeholder="Password" required/></td>
+		</tr>
+		<tr>
+			<td>Jenis Kelamin</td>
+			<td>:</td>
+			<td>
+				<input type="radio" name="pria" value="Pria" >Pria</input>
+				<input type="radio" name="wanita" value="Wanita" >Wanita</input>
+			</td>
+		</tr>
+		<tr>
+			<td>Hobi</td>
+			<td>:</td>
+			<td>
+				<input type="radio" name="Makan" value="Makan" >Makan</input><br>
+				<input type="radio" name="Belajar" value="Belajar" >Belajar</input><br>
+				<input type="radio" name="Tidur" value="Tidur" >Tidur</input><br>
+				<input type="radio" name="Ngoding" value="Ngoding" >Ngoding</input><br>
+			</td>
+		</tr>
+		<tr>
+			<td>Pendidikan Terakhir</td>
+			<td>:</td>
+			<td>
+				<select name="pt">
+					<option value="" selected>--Pilih--</option>
+					<option value="D3">D3</option>
+					<option value="S1">S1</option>
+					<option value="S2">S2</option>
+					<option value="S3">S3</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Jurusan</td>
+			<td>:</td>
+			<td>
+				<select multiple name="jurusan">
+					<option value="Informatika">Informatika</option>
+					<option value="MBTI">MBTI</option>
+					<option value="Sistem Komputer">Sistem Komputer</option>
+					<option value="Sistem Informasi">Sistem Informasi</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Upload Foto</td>
+			<td>:</td>
+			<td>
+				<input required type="file"></input>
+			</td>
+		</tr>
+		<tr>
+			<td>Alamat</td>
+			<td>:</td>
+			<td>
+				<textarea placeholder="Alamat" rows="7" cols="40%" required></textarea>
+			</td>
+		</tr>
+	</table>
+	<input type="submit" name="submit" value="Submit" />
+</form>
+</body>
+</html>
